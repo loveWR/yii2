@@ -19,7 +19,7 @@ Yii 提供两个控制器基类来简化创建RESTful
 * [认证](rest-authentication.md);
 * [频率限制](rest-rate-limiting.md).
 
-[[yii\rest\ActiveController]] 额外提供一下功能:
+[[yii\rest\ActiveController]] 额外提供以下功能:
 
 * 一系列常用动作: `index`, `view`, `create`, `update`, `delete`, `options`;
 * 对动作和资源进行用户认证.
@@ -120,7 +120,7 @@ public function behaviors()
 
 ### 自定义动作 <span id="customizing-actions"></span>
 
-[[yii\rest\ActiveController]] 默认提供一下动作：
+[[yii\rest\ActiveController]] 默认提供以下动作：
 
 * [[yii\rest\IndexAction|index]]：按页列出资源;
 * [[yii\rest\ViewAction|view]]：返回指定资源的详情;
